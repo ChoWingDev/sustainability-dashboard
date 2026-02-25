@@ -6,7 +6,7 @@ import altair as alt
 import os
 
 # Base path
-DATA_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'raw', 'WorldSustainabilityDataset.csv')
+DATA_PATH = os.path.join(os.path.dirname(__file__), 'data', 'raw', 'WorldSustainabilityDataset.csv')
 df = pd.read_csv(DATA_PATH)
 
 # Clean/prepare columns
