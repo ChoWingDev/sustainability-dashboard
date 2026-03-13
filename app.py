@@ -114,6 +114,7 @@ def country_label_with_flag(country_name):
     return f"{flag} {country_name}"
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
+server = app.server
 
 app.index_string = '''
 <!DOCTYPE html>
